@@ -40,13 +40,13 @@ public class MainActivity extends AppCompatActivity {
         // 设置HEADERView
         View headerView = View.inflate(this, R.layout.parallax_header_view, null);
         ImageView imageView = (ImageView) headerView.findViewById(R.id.iv_header_img);
-        imageView.setImageResource(R.drawable.parallax_img);
+        imageView.setImageResource(R.drawable.low);
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP); // 设置中间放大.
         // 添加到ListView.
         plv_data.addHeaderView(headerView);
+        plv_data.setParallaxImageView(imageView);
         // 设置适配器
         plv_data.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, sLetters));
-
     }
 
     private void initView() {
