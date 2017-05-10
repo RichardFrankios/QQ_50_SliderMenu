@@ -32,13 +32,14 @@ public class MainActivity extends AppCompatActivity  implements SwiperDeleteLayo
 
         initData();
 
+
+
     }
 
     private void initData() {
         for (int i = 0; i < 30; i++) {
             mData.add("content --- " + i);
         }
-
         lv_show.setAdapter(new MyAdapter());
 
 //        lv_show.setOnScrollListener(new AbsListView.OnScrollListener() {

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/QQ50Slider.iml" filepath="$PROJECT_DIR$/QQ50Slider.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/parallax/parallax.iml" filepath="$PROJECT_DIR$/parallax/parallax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stickinesscircle/stickinesscircle.iml" filepath="$PROJECT_DIR$/stickinesscircle/stickinesscircle.iml" />
       <module fileurl="file://$PROJECT_DIR$/swipedelete/swipedelete.iml" filepath="$PROJECT_DIR$/swipedelete/swipedelete.iml" />
     </modules>
   </component>
